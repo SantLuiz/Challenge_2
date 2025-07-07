@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import folium
+from folium.plugins import HeatMap
 
 
 os.system('cls')
@@ -116,6 +118,16 @@ class Loja():
         """
         return {item:qtd for item, qtd in self.dados['Produto'].value_counts().tail(i).items()}
     
+    def localizações(self) -> list:
+        """
+            Retorna as coordenadas onde os itens foram vendidos.
+
+            Returns:
+                list: lista de tuplas das localizações das vendas.
+        """
+
+        return [(lat,lon) for lat,lon in zip (self.dados['lat'], self.dados['lon'])]
+
     def analise(self,i:int = 5) -> None:
         """
             Exibe no console um resumo com estatísticas da loja.
@@ -202,6 +214,14 @@ for i, loja in enumerate(lojas):
 plt.tight_layout()
 plt.show()'''
 
+#Mapa de calor das localizações das vendas
+'''
+for i,loja in enumerate(lojas):
+    coord = loja.localizações()
+    mapa = folium.Map(location=coord[0], zoom_start=6)
+    HeatMap(coord).add_to(mapa)
+    mapa.save(f"Mapa de calor {loja.nome}.html")
+'''
 
 
 
