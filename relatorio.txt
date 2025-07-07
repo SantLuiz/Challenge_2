@@ -1,0 +1,14 @@
+O presente relatório tem como objetivo realizar uma análise comparativa do desempenho de quatro lojas da empresa, com base em métricas-chave extraídas de dados de vendas, satisfação dos clientes e avaliação dos produtos. A proposta é utilizar ferramentas analíticas e visualizações gráficas para embasar a recomendação de qual loja deve ser encerrada, caso uma redução no número de unidades seja necessária.
+
+Foram analisadas as seguintes métricas para cada loja: faturamento total anual, média de satisfação dos clientes, frete médio, categorias mais populares e produtos mais e menos vendidos.
+
+Em relação ao faturamento, foi gerado um gráfico de barras para comparar o desempenho entre as lojas. A loja 4 apresentou um faturamento visivelmente inferior às demais, destacando-se como a unidade com o pior resultado financeiro anual.
+
+No aspecto de satisfação dos clientes, foi elaborado um histograma com a distribuição das notas de avaliação de compra. A loja 4 apresentou uma média inferior, o que indica uma percepção negativa por parte dos consumidores em relação à experiência de compra nessa unidade.
+
+Também foi analisada a popularidade das categorias de produtos por meio de um gráfico de pizza. As lojas com melhor desempenho apresentaram uma maior diversidade e volume de vendas em categorias populares, enquanto a loja 4 demonstrou pouca variedade e menor expressividade nesse quesito.
+
+Por fim, foram geradas visualizações com os produtos mais e menos vendidos em cada loja. A loja 4 se destacou negativamente, com vendas abaixo das demais e um portfólio de produtos com baixo giro, o que sugere baixa atratividade comercial.
+
+Baseado nas informações fornecidas e após rigorosa análise, é possível concluir que a loja que deve ser fechada é a loja 4. Essa decisão é justificada por três fatores principais: menor faturamento anual entre todas as unidades, média de satisfação do cliente consideravelmente baixa, e baixo desempenho nas vendas de produtos e na variedade de categorias populares. Essa recomendação visa otimizar os recursos da empresa, concentrando os investimentos nas lojas com maior retorno e melhor aceitação pelos consumidores.
+
